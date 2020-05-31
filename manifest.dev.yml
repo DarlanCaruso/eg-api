@@ -1,0 +1,6 @@
+applications:
+- name: treinamentoIBM
+  routes:
+  - route : treinamentoibm.myblumix.net
+  memory: 512M
+  instances: 1

@@ -1,0 +1,13 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    container_name: estamosgravidos_db_mongo
+    volumes:
+      - db-data:/var/lib/mongo/data
+    ports:
+      - 27017:27017
+    restart: always
+volumes:
+  db-data:
+    driver: local

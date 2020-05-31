@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Introdução": ["doc1"],
+    "Informações gerais": ["doc2"],
+    "Gestão de riscos": ["doc3"],
+    "Colaboradores": ["doc4"]
+  },
+  "docs-other": {
+    "Documentação": ["api-docs"]
+  }
+}
